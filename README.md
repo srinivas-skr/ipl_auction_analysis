@@ -1,6 +1,6 @@
 # ipl_auction_analysis
 
-# IPL 2023 Auction Analysis using Pandas AI
+## IPL 2023 Auction Analysis using Pandas AI
 
 This repository contains an analysis of the IPL 2023 Auction data using the Pandas AI library, which integrates AI-based insights into pandas DataFrame operations.
 
@@ -15,14 +15,17 @@ To run the notebook, you need the following dependencies:
 
 You can install the necessary libraries by running the following commands:
 
-```bash
+
 pip install pandas pandasai openai
 
 Setup
 Clone this repository to your local machine.
 Replace the OPENAI_API_KEY in the notebook with your own OpenAI API key.
 Upload the IPL_Squad_2023_Auction_Dataset.csv dataset to the same directory as the notebook.
-Notebook Overview
+Notebook Overview 
+
+
+
 Steps in the Analysis:
 Install and import necessary libraries: We install the required libraries such as pandasai and OpenAI.
 Initialize OpenAI API: Set up the OpenAI API key to communicate with the GPT model.
@@ -35,6 +38,7 @@ Drawing bar plots for money spent by teams
 Listing unsold players and their base prices
 Identifying the types of players that remained unsold
 Visualization: Generate bar plots to show spending trends across teams.
+
 Prompts Used for Analysis:
 The notebook interacts with the PandasAI library to run natural language queries on the dataset, such as:
 
@@ -42,6 +46,7 @@ The notebook interacts with the PandasAI library to run natural language queries
 "How many players remained unsold this season?"
 "Draw a bar plot showing how much money was spent by each team."
 Results
+
 The notebook generates insights about IPL 2023 auction data, such as:
 
 Most expensive players and their respective teams
